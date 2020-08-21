@@ -11,8 +11,7 @@ function Header() {
     return (
         <div className="header">
             <div className="header__left">
-                <Avatar className="header__avatar" alt={user?.displayName} src={user?.photoURL}/>
-                <AccessTimeIcon />
+                {/* <AccessTimeIcon /> */}
 
             </div>
 
@@ -22,7 +21,8 @@ function Header() {
             </div>
 
             <div className="header__right">
-                <HelpOutlineIcon />
+                <Avatar className="header__avatar" alt={user?.displayName} src={user?.photoURL}/>
+                {/* <HelpOutlineIcon /> */}
             </div>
         </div>
     )

@@ -1,0 +1,87 @@
+.WritingCard {
+    width: 600px;
+    height: 230px;
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.WritingCard {
+    flex: 1;
+}
+
+.WritingCard__header > .MuiSvgIcon-root {
+    font-size: 20px;
+    margin-top: 1px;
+}
+
+.WritingCard__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.WritingCard__info > h2 {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 5px;
+}
+
+.WritingCard__info > img {
+    object-fit: contain;
+    height: 40px;
+}
+
+.WritingCard__category > h2 {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 5px;
+}
+
+
+.WritingCard__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid lightgray;
+}
+
+.WritingCard__footer > h2 {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.WritingCard__status {
+    display: flex;
+    align-items: center;
+}
+
+.WritingCard__status > .MuiSvgIcon-root {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.WritingCard__status > h2 {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.WritingCard__attempts {
+    display: flex;
+    align-items: center;
+}
+
+.WritingCard__attempts > h2 {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.WritingCard__attempts > .MuiSvgIcon-root {
+    font-size: 18px;
+    margin-right: 5px;
+}

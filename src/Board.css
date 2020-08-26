@@ -48,11 +48,8 @@
 
 .board__container {
     padding: 30px;
-}
-
-.board__container {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 30px;
     justify-content: space-between;
-    margin-right: 10px;
 }

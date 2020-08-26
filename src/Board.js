@@ -7,7 +7,7 @@ import WritingCard from "./WritingCard";
 function Board() {
     return (
         <div className="board">
-            <div className="board__header">
+            {/* <div className="board__header">
                 <div className="board__headerLeft">
                     <div className="board__headerSearch">
                         <SearchIcon  />
@@ -20,13 +20,9 @@ function Board() {
                     <Button>Save</Button>
                     <Button>Discard</Button>
                 </div>
-            </div>
+            </div> */}
 
             <div className="board__container">
-                <WritingCard />
-                <WritingCard />
-                <WritingCard />
-                <WritingCard />
                 <WritingCard />
                 <WritingCard />
                 <WritingCard />

@@ -6,13 +6,13 @@ import PlaylistAddCheckIcon from '@material-ui/icons/PlaylistAddCheck';
 
 function WritingCard() {
     return (
-        <div className="WritingCard">
-            <div className="WritingCard__header">
+        <div className="writingCard">
+            <div className="writingCard__header">
                 <p>The line graph gives information about the number of Iranian, Greek and Turkish students who enrolled at Sheffield University between 2005 and 2009. 
                         Summarise the information by selecting and reporting the main features, and make comparisons where relevant.</p>
 
-                <div className="WritingCard__info">
-                    <div className="WritingCard__category">
+                <div className="writingCard__info">
+                    <div className="writingCard__category">
                         <h2>@IELTS Academic</h2>
                         <h2>#human #technology #lifestyle</h2>
                     </div>
@@ -21,13 +21,13 @@ function WritingCard() {
                 </div>
             </div>
             
-            <div className="WritingCard__footer">
+            <div className="writingCard__footer">
                 <h2>Last score: 6.5</h2>
-                <div className="WritingCard__status">
+                <div className="writingCard__status">
                     <CheckCircleOutlineIcon />
                     <h2>Last graded: 29-08-2020 6:30PM UST</h2>
                 </div>
-                <div className="WritingCard__attempts">
+                <div className="writingCard__attempts">
                     <PlaylistAddCheckIcon />
                     <h2>1 attempt</h2>
                 </div>

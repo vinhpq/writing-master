@@ -11,7 +11,7 @@ function Header() {
     return (
         <div className="header">
             <div className="header__left">
-                {/* <AccessTimeIcon /> */}
+                <img src="https://cdn.freebiesupply.com/logos/large/2x/slack-logo-icon.png" alt="" />
 
             </div>
 

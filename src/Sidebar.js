@@ -16,17 +16,6 @@ function Sidebar() {
 
     const [{ user }] = useStateValue();
 
-    // const [channels, setChannels] = useState([]);
-    // useEffect(() => {
-    //     db.collection('rooms').onSnapshot(snapshot => (
-    //         setChannels(snapshot.docs.map(doc => ({
-    //             id: doc.id,
-    //             name: doc.data().name
-    //         })))
-    //     ))
-    // }, []);
-
-
     return (
         <div className="sidebar">
             <div className="sidebar__header">

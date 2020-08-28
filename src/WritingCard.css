@@ -1,10 +1,28 @@
 .writingCard {
-    width: 520px;
-    padding: 5px 20px;
+    padding: 5px 10px;
     margin-bottom: 40px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    margin-right: 80px;
+    border-top: 10px solid darkgreen;
+    transition: transform 100ms ease-out;
+}
+
+.writingCard:hover {
+    transform: scale(1.09);
+}
+
+.writingCard__content {
+    width: 550px;
+    /* height: 230px; */
+    padding-bottom: 0px !important;
+}
+
+.writingCard__header {
+    padding-bottom: 10px;
+}
+
+.writingCard__header > h2 {
+    font-size: 15px;
+    font-weight: 300;
 }
 
 .writingCard__info {
@@ -12,13 +30,12 @@
     align-items: center;
     justify-content: space-between;
     padding-bottom: 20px;
-    width: 500px;    
+    /* width: 500px;     */
 }
 
 .writingCard__info > h2 {
     font-size: 15px;
     font-weight: 300;
-    margin: 5px;
 }
 
 .writingCard__info > img {
@@ -74,3 +91,4 @@
     font-size: 18px;
     margin-right: 5px;
 }
+

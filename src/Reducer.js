@@ -1,10 +1,12 @@
 export const initialState = {
-    user: null,
+    user: "Vinh Pham",
 };
 
 export const actionTypes = {
     SET_USER: "SET_USER",
-}
+};
+
+
 
 const reducer = (state, action) => {
     console.log(action);
@@ -18,7 +20,6 @@ const reducer = (state, action) => {
         default:
             return state;
     }
-}
-
+};
 
 export default reducer;

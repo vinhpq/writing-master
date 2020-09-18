@@ -1,19 +1,23 @@
 .writingCard {
     padding: 5px 10px;
     margin-bottom: 40px;
-    margin-right: 80px;
-    border-top: 10px solid darkgreen;
+    margin-right: 40px;
+    border-top: 10px solid #421f44;
     transition: transform 100ms ease-out;
+    display: flex;
+    flex-direction: column;
 }
 
 .writingCard:hover {
     transform: scale(1.09);
+    cursor: pointer;
 }
 
 .writingCard__content {
-    width: 550px;
-    /* height: 230px; */
-    padding-bottom: 0px !important;
+    /* flex: 1; */
+    width: 450px;
+    /* height: 120px; */
+    /* padding-bottom: 0px !important; */
 }
 
 .writingCard__header {
@@ -55,6 +59,8 @@
     align-items: center;
     justify-content: space-between;
     border-top: 1px solid lightgray;
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
 }
 
 .writingCard__footer > h2 {

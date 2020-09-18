@@ -6,7 +6,7 @@ import PlaylistAddCheckIcon from '@material-ui/icons/PlaylistAddCheck';
 import { Card, CardContent, Typography } from "@material-ui/core";
 import TextTruncate from "react-text-truncate";
 
-function WritingCard({ topic, exam_category, topic_category, grading_status, attempts }) {
+function WritingCard({ topic, exam_category, topic_category, image, grading_status, attempts }) {
     return (
         <Card className="writingCard">
             <CardContent className="writingCard__content">
@@ -24,25 +24,23 @@ function WritingCard({ topic, exam_category, topic_category, grading_status, att
                         <h2>{exam_category}</h2>
                         <h2>{topic_category}</h2>
                     </Typography>
-                    <img src="https://www.ielts-exam.net/images/graphs/IELTS_Writing_Task_1_LineGraph-163.png" alt="" />
-                    {/* <Typography className="writingCard__category">
-                        <h2>No due date</h2>
-                    </Typography> */}
+                    <img src={image} alt="" />
                 </Typography>
 
-                <Typography className="writingCard__footer" color="textSecondary">
-                    {/* <h2>Last score: 6.5</h2> */}
-                    <Typography className="writingCard__status">
-                        <CheckCircleOutlineIcon />
-                        <h2>{grading_status}</h2>
-                    </Typography>
+                
 
-                    <Typography className="writingCard__attempts">
-                        <PlaylistAddCheckIcon />
-                        <h2>{attempts}</h2>
-                    </Typography>
+            </CardContent>
+
+            <CardContent className="writingCard__footer">
+                <Typography className="writingCard__status" color="textSecondary">
+                    <CheckCircleOutlineIcon />
+                    <h2>{grading_status}</h2>
                 </Typography>
 
+                <Typography className="writingCard__attempts">
+                    <PlaylistAddCheckIcon />
+                    <h2>{attempts}</h2>
+                </Typography>
             </CardContent>
         </Card>
     )

@@ -21,7 +21,8 @@ function Board() {
                 exam_category: doc.data().exam_category,
                 topic_category: doc.data().topic_category,
                 grading_status: doc.data().grading_status,
-                attempts: doc.data().attempts
+                attempts: doc.data().attempts,
+                image: doc.data().image,
             })))
         })
         
@@ -37,6 +38,7 @@ function Board() {
                         topic_category={writing.topic_category}
                         grading_status={writing.grading_status}
                         attempts={writing.attempts} 
+                        image={writing.image}
                     />
                 ))}
                 {/* <WritingCard />
